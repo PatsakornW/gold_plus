@@ -1,0 +1,91 @@
+html {
+    font-size: calc(60% + 0.8vmin);
+}
+
+
+body {
+    letter-spacing: 0.5px;
+    font-family: 'Prompt', sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+
+.card-header:first-child{
+    border-top-left-radius:0.9rem ;
+    border-top-right-radius:0.9rem ;
+    border: none;
+}
+.card-footer:last-child{
+    border-bottom-left-radius:0.9rem ;
+    border-bottom-right-radius:0.9rem ;
+    border: none;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+
+.modal-header {
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+    border: none;
+
+}
+
+#slip_file {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+#slip_file:hover {
+    transform: scale(1.3);
+}
+
+
+#forgetpass-btn,#register-btn{
+    text-decoration: none;
+}
+#forgetpass-btn:hover,#register-btn:hover{
+    text-decoration: underline;
+}
+
+
+.confirm {
+    background-color: #B0120A;
+    color: white;
+
+}
+
+.confirm:hover {
+    background-color: #04d733ff;
+    color: white;
+}
+
+.confirm_trade {
+    background-color: white;
+    color: #B0120A;
+}
+
+.confirm_trade:hover {
+    background-color: #04d733ff;
+    color: white;
+}
+
+.dropdown-item:active{
+    background-color: #B0120A;
+}
+
+
+
+
